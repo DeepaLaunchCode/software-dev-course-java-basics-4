@@ -3,7 +3,6 @@ package org.example;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Scanner;
-
 public class StudentManager {
     private Scanner scanner = new Scanner(System.in);
     private List<String> students = new ArrayList<>();
@@ -50,6 +49,7 @@ public class StudentManager {
     public void viewStudents() {
         // Loop through the list of students and print each one
         // (Use a for-each loop!)
+
         mainMenu();
     }
 }
